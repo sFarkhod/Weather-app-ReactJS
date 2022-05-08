@@ -70,8 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Weather-app-ReactJS
 
-# For using this project please install al dependencies with " npm install " command.
+# For using this project please install all dependencies with " npm install " command.
 
-# Happy coding !!
-
-# sFarkhod. All rights reserved
+ Happy coding !!
+ sFarkhod. All rights reserved
