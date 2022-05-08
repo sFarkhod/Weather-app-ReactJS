@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto&display=swap');
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.back_img {
+  width: 100%;
+  height: 60%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myCard {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  padding-top: 45px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.App-link {
-  color: #61dafb;
+.imgDiv {
+  margin-top: -50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textClass {
+  margin-top: 20px;
+}
+
+.textClass h3 {
+  cursor: pointer;
+}
+
+.searchIMG {
+  width: 4%;
+  height: 4%;
+  margin-left: 496px;
+  background-color: rgb(235, 190, 44);
+  padding: 4%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.searchInput{
+  position: absolute;
+  top: 0;
+  margin-top: 26px;
+  margin-left: -520px;
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+}
+
+.searchInput:focus {
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid #000000;
+  outline: none;
+}
+
+h2, h3, hr {
+  margin-left: 45px;
+
+} 
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 700;
+  color: #333;
+}
+
+hr {
+  margin-right: 45px;
+}
+
+.AboutMe {
+  margin-top: -10px;
+}
+
+.weatherInfoText {
+  margin-left: 400px;
+  margin-top: -50px;
+  color: #000000;
+}
+
+.weatherInfo {
+  position: absolute;
+  top: 0;
+  margin-top: 370px;
+  margin-left: 100px;
+}
+
+.weatherTown {
+  position: relative;
+  margin-top: -175px;
+  margin-left: 165px;
+  font-size: 30px;
+}
+
+.time {
+  color: #000000;
+  margin-left: 165px;
+  margin-top: -22px;
+}
+
+.weatherIMG {
+  margin-left: 380px;
+  position: absolute;
+  margin-top: -128px;
+}
+
+.weatherRight {
+  color: #000000;
+  position: relative;
+  margin-left: 395px;
+  margin-top: -48px;
+}
+
+
+.weatherDegree {
+  font-size: 100px;
+}
+
+.myLogo {
+  position: absolute;
+  top: 0;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.myLogo h1 {
+  font-size: 20px;
+  font-weight: bold;
 }
