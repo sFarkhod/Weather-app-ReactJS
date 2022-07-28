@@ -4,7 +4,7 @@ import axios from 'axios'
 // we use there is arrow function cause we dont need to return html it writing with arrow is helped to write faster
 // we use asynchronous functions its very important
 
-const URL = "http://api.openweathermap.org/data/2.5/weather";
+const URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_KEY = "5814002cd41aedcc0accef0bafda4907";
 
 export const WeatherAPI = async (query) => {
